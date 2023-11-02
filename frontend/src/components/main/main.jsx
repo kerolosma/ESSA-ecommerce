@@ -90,7 +90,7 @@ const Main = () => {
           <Box>
             <Typography variant="h6">Selected Products</Typography>
             <Typography fontWeight={300} variant="body1">
-              All our new arrivals in a exclusive brand selection
+              All our new arrivals in a exclusive wood selection
             </Typography>
           </Box>
 
@@ -123,7 +123,7 @@ const Main = () => {
               value={menCategoryAPI}
               aria-label="centered"
             >
-              MEN category
+              wood category
             </ToggleButton>
 
             <ToggleButton
@@ -132,7 +132,7 @@ const Main = () => {
               value={womenCategoryAPI}
               aria-label="right aligned"
             >
-              Women category
+              wooden category
             </ToggleButton>
           </ToggleButtonGroup>
         </Stack>

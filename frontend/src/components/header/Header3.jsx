@@ -121,7 +121,7 @@ const Header3 = () => {
               <ElectricBikeOutlined fontSize="small" />
             </ListItemIcon>
 
-            <ListItemText>wooden</ListItemText>
+            <ListItemText>wood</ListItemText>
           </MenuItem>
 
           <MenuItem onClick={handleClose}>
@@ -129,7 +129,7 @@ const Header3 = () => {
               <LaptopChromebookOutlined fontSize="small" />
             </ListItemIcon>
 
-            <ListItemText>woodeen</ListItemText>
+            <ListItemText>craft</ListItemText>
           </MenuItem>
 
           <MenuItem onClick={handleClose}>
@@ -137,7 +137,7 @@ const Header3 = () => {
               <MenuBookOutlined fontSize="small" />
             </ListItemIcon>
 
-            <ListItemText>wodden</ListItemText>
+            <ListItemText>hand made</ListItemText>
           </MenuItem>
 
           <MenuItem onClick={handleClose}>
@@ -145,7 +145,7 @@ const Header3 = () => {
               <SportsEsportsOutlined fontSize="small" />
             </ListItemIcon>
 
-            <ListItemText>woood</ListItemText>
+            <ListItemText>ESSA</ListItemText>
           </MenuItem>
         </Menu>
       </Box>
@@ -153,7 +153,7 @@ const Header3 = () => {
       {useMediaQuery("(min-width:1200px)") && (
         <Stack gap={4} direction={"row"} alignItems={"center"}>
           <Links title={"Home"} />
-          <Links title={"ESSA Menu"} />
+          <Links title={"Mega Menu"} />
           <Links title={"Full Screen Menu"} />
           <Links title={"pages"} />
           <Links title={"User Account"} />
@@ -194,7 +194,7 @@ const Header3 = () => {
 
           {[
             { mainLink: "Home", subLinks: ["Link 1", "Link 2", "Link 3"] },
-            { mainLink: "ESSA menu", subLinks: ["Link 1", "Link 2", "Link 3"] },
+            { mainLink: "Mega menu", subLinks: ["Link 1", "Link 2", "Link 3"] },
             {
               mainLink: "full screen menu",
               subLinks: ["Link 1", "Link 2", "Link 3"],

@@ -66,7 +66,7 @@ const Header1 = () => {
             }}
             variant="body2"
           >
-            ESSA
+            Saint Stephen Art Works
           </Typography>
 
           <Typography
@@ -76,9 +76,7 @@ const Header1 = () => {
               color: "#fff",
             }}
             variant="body2"
-          >
-            Shipping
-          </Typography>
+          ></Typography>
 
           <Box flexGrow={1} />
 

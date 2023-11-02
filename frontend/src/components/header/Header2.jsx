@@ -70,7 +70,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
   },
 }));
 
-const options = ["All Categories", "wooden"];
+const options = ["All Categories", "wood", "Craft", "ESSA suggest"];
 
 const Header2 = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -95,7 +95,7 @@ const Header2 = () => {
     <Container sx={{ my: 3, display: "flex", justifyContent: "space-between" }}>
       <Stack alignItems={"center"}>
         <ShoppingCartOutlined />
-        <Typography variant="body2">ESAA</Typography>
+        <Typography variant="body2">ESSA</Typography>
       </Stack>
 
       <Search

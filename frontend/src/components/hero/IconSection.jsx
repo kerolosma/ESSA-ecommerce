@@ -31,17 +31,17 @@ const IconSection = () => {
         <MyBox
           icon={<ElectricBoltIcon fontSize="large" />}
           title={"Fast Delivery"}
-          subTitle={"Start from 20L.E"}
+          subTitle={"Start from 500 lE"}
         />
         <MyBox
           icon={<WorkspacePremiumOutlinedIcon fontSize="large" />}
-          title={"Money"}
-          subTitle={"greetly discount"}
+          title={"Customized"}
+          subTitle={"Customized for you"}
         />
         <MyBox
           icon={<AccessAlarmOutlinedIcon fontSize="large" />}
-          title={"Fast"}
-          subTitle={"Fast processing"}
+          title={"365 Days"}
+          subTitle={"work"}
         />
         <MyBox
           icon={<CreditScoreOutlinedIcon fontSize="large" />}
